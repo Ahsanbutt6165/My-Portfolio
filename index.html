@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="/images/logoo.png" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Front-End Web Developer</p>
+          <h1>
+            Hi, I'm <span>Ahsan Ali</span> <br />
+            from Chakwal
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/images/pro-removebg-preview.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              I am a Front-End Web Developer. My primary goal is to enhance my
+              skills and expand my knowledge to gain valuable experience in
+              complex project development.<br />
+              A dynamic and motivated person having interest in Computer
+              Science. I am looking for a good Company as a Front-End Web
+              Developer.<br />
+              I am dedicated to continuously improving and staying updated with
+              the latest advancements in industry.<br />
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-content" id="skills">
+              <ul>
+                <li><span>HTML</span></li>
+                <li><span>CSS</span></li>
+                <li><span>Tailwind CSS</span></li>
+                <li><span>Bootstrap</span></li>
+                <li><span>Javascript</span></li>
+                <li><span>React JS</span></li>
+                <li><span>Redux & Redux Toolkit</span></li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>BS IT</span><br />2016-2021<br />University of Gujjrat,
+                  Pakistan
+                </li>
+                <li>
+                  <span>ICS</span><br />2012-2014<br />Govt Post Graduate
+                  College Chakwal, Pakistan
+                </li>
+                <li>
+                  <span>Matriculation</span><br />2010-2012<br />Bise
+                  Rawalpindi,Pakistan
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="services">
+      <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+          <div>
+            <h2>HTML & CSS Responsive Web Design</h2>
+            <p></p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <h2>React JS Development</h2>
+            <p></p>
+            <br />
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <h2>Javascript Development</h2>
+            <p></p>
+            <br />
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="/images/work1.png" alt="" />
+            <div class="layer">
+              <h3>Online Shopping Website</h3>
+              <p>Practice Project using React Js</p>
+              <a href="#">See</a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/images/youtube.png" alt="" />
+            <div class="layer">
+              <h3>Youtube Colone</h3>
+              <p>Practice Project using HTML & CSS</p>
+              <a href="#">See</a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/images/work1.png" alt="" />
+            <div class="layer">
+              <h3>Online Shopping Website</h3>
+              <p>Practice Project using React Js</p>
+              <a href="#">See</a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <p>
+              <img
+                style="border-radius: 20%"
+                width="30px"
+                height="30px"
+                src="/images/mail2.png"
+                alt=""
+              />
+              <span>ahsanbutt6165@gmail.com</span>
+            </p>
+            <p>
+              <img
+                style="border-radius: 20%"
+                width="30px"
+                height="30px"
+                src="/images/foneicon.jpeg"
+                alt=""
+              />
+              <span>0311-0336165</span>
+            </p>
+            <div class="social-icons">
+              <a href="#"
+                ><img
+                  style="border-radius: 70%"
+                  width="25px"
+                  height="25px"
+                  src="/images/linkdn.png"
+                  alt=""
+              /></a>
+              <a href="#"
+                ><img
+                  style="border-radius: 70%"
+                  width="25px"
+                  height="25px"
+                  src="/images/insta.jpeg"
+                  alt=""
+              /></a>
+              <a href="#"
+                ><img
+                  style="border-radius: 70%"
+                  width="25px"
+                  height="25px"
+                  src="/images/fbicon.jpeg"
+                  alt=""
+              /></a>
+            </div>
+            <a href="/Files/AhsanAliResume .pdf" download="pdf" class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea name="message" rows="6" placeholder="Your Message">
+              </textarea>
+              <button class="btn btn2" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-content");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-content");
+      }
+    </script>
+  </body>
+</html>
